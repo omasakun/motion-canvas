@@ -19,7 +19,21 @@
     "lib"
   ],
   "peerDependencies": {
+    "@motion-canvas/2d": "*",
+    "@motion-canvas/core": "*",
+    "@motion-canvas/ui": "*",
     "vite": "4.x"
+  },
+  "peerDependenciesMeta": {
+    "@motion-canvas/core": {
+      "optional": true
+    },
+    "@motion-canvas/2d": {
+      "optional": true
+    },
+    "@motion-canvas/ui": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "@motion-canvas/internal": "0.0.0",

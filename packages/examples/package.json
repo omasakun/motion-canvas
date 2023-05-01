@@ -13,5 +13,8 @@
   "devDependencies": {
     "@motion-canvas/ui": "*",
     "@motion-canvas/vite-plugin": "*"
+  },
+  "peerDependencies": {
+    "@motion-canvas/examples": "*"
   }
 }
